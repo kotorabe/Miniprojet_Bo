@@ -1,0 +1,12 @@
+env: python
+build:
+  - npm install
+  - npm run build
+deploy:
+  image: railway/php
+  memory: 512Mi
+  routes:
+    - handle: raw
+      source: /favicon.ico
+    - handle: php
+      source: /.*
