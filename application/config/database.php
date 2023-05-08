@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'pgsql:host=localhost;port=5432;dbname=miniprojet',
+	'dsn'	=> 'pgsql:host=localhost;port=7983;dbname=containers-us-west-8.railway.app',
 	'hostname' => 'localhost',
-	'username' => 'manager_miniprojet',
-	'password' => '1234',
-	'database' => 'miniprojet',
+	'username' => 'postgres',
+	'password' => 'c5OaLSTe1NoSNU4mN8wC',
+	'database' => 'containers-us-west-8.railway.app',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
